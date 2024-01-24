@@ -1,0 +1,13 @@
+# aws
+Host 3.114.85.230
+	HostName 3.114.85.230
+	User ubuntu
+	Port 22
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/key_openssh
+
+Host gitee.com
+    HostName gitee.com
+    User git
+    PreferredAuthentications  publickey
+    IdentityFile ~/.ssh/kylin-admin
